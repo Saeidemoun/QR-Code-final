@@ -169,6 +169,7 @@ function SocialQR() {
                 <button
                   className="w-full text-center mt-2 bg-indigo600 p-1 rounded-md
                 transition-all duration-500 hover:opacity-70"
+                  onClick={handleShare}
                 >
                   ارسال QR Code
                   <SendToMobileIcon fontSize="small" sx={{ mr: 0.3 }} />
