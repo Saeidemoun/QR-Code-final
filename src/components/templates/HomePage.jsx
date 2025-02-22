@@ -9,7 +9,7 @@ import SocialQR from "../modules/SocialQR";
 
 //Images & Icons
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
-import logo from "../../../public/logo.jpg";
+import logo from "../../../public/logo.jpeg";
 
 function HomePage() {
   const text = "“ما رو از طریق شبکه های اجتماعی دنبال کنید”";
@@ -62,9 +62,8 @@ function HomePage() {
           </p>
         </div>
         <Image
-          className="w-12 rounded-full shadow-forDark outline outline-1 mr-2
-          outline-offset-1 outline-slate700 ring-1 ring-gray400 transition-all
-          duration-500 hover:opacity-80 hover:scale-[0.97] min-[500px]:w-16"
+          className="w-32 shadow-forDark outline mr-2 rounded-md p-2 bg-black
+          transition-all duration-500 hover:opacity-80 hover:scale-[0.97]"
           src={logo}
           width={400}
           height={400}
