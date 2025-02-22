@@ -48,21 +48,21 @@ function HomePage() {
     >
       <div
         className="flex justify-between items-center mb-auto w-full mt-5
-      p-4 bg-white/5 rounded-lg"
+      p-4 bg-gradient-to-l from-transparent to-black rounded-lg"
       >
         <div className="flex flex-col justify-center items-start w-fit mt-0 mb-auto">
-          <h1 className="flex items-center font-bold text-slate100">
+          <h1 className="flex items-center font-bold text-slate100 text-sm min-[400px]:text-[16px]">
             استودیو تخصصی مو | مهلا محتشم
           </h1>
           <p
-            className="mt-1 font-light text-[11px] min-[385px]:text-[12px]
+            className="mt-1 font-light text-[10px] min-[400px]:text-[12px]
           p-1 rounded-md"
           >
             {splitText}
           </p>
         </div>
         <Image
-          className="w-32 shadow-forDark outline mr-2 rounded-md p-2 bg-black
+          className="w-20 min-[412px]:w-24 min-[500px]:w-32 mb-auto shadow-forDark outline mr-2 rounded-md p-2 bg-black
           transition-all duration-500 hover:opacity-80 hover:scale-[0.97]"
           src={logo}
           width={400}
